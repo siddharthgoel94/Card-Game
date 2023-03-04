@@ -1,0 +1,122 @@
+body{
+    background-image: url('/images/bg.jpg');
+    background-repeat: repeat-y;
+    background-size: 100% auto;
+}
+    
+*{
+    font-family: 'Source Sans Pro', sans-serif;
+    color:antiquewhite;
+    font-size:30px;
+}
+#heading h1{
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.game{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.deck{
+    width:300px;
+}
+
+.play{
+    padding:2px 10px;
+    cursor: pointer;
+    color: black;
+}
+
+.ply{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:40px 10px;
+}
+.ply img{
+    padding:1px 50px;
+
+}
+.Shuffle{
+    padding: 2px 10px;
+    cursor: pointer;
+    margin:10px;
+    color: black;
+}
+.numbers{
+    
+    padding: 20px;
+}
+#middle{
+    display: flex;
+}
+.winner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+
+}
+.div2{
+
+    position: absolute;
+    
+    width: 150px;
+    
+    height: 200px;
+    
+    z-index: 2;
+    
+    background: rgb(0, 204, 255);
+    
+    margin: 20px;
+    
+    /* opacity: 0.7; */
+    
+}
+.div1{
+
+    position: absolute;
+    
+    height: 200px;
+    
+    width: 150px;
+    
+    z-index: 1;
+    
+    background: rgb(4, 3, 75);
+    
+    }
+
+.addedImage{
+    height:200;
+    width:150;
+
+}
+.cardHolder{
+    padding:160px;
+}
+.winner{
+    color:white;
+    font-weight: 900;
+    font-size: 80px;
+
+  
+}
+#reset{
+    margin:127px 63px;
+    height:50px;
+    width:200px;
+    color:black
+}
+/* #deck1Cards{
+    border:1px solid black;
+    
+}
+#deck2Cards{
+    border:1px solid black;
+} */

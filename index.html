@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card Game</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+      </style>
+</head>
+<body>
+    <div id="heading">
+        <h1>Welcome to Card match Game</h1>
+
+    </div>
+    <div class="instructions">
+        <h2>INSTRUCTIONS</h2>
+        <ul>
+            <li>This is a 2 player Game.</li>
+            <li>Each player is initially given equal number of cards randomly from a deck of 52 cards.</li>
+            <li>Each player is supposed to play a card form his deck on his/her turn.</li>
+            <li>If the number on the card played matches with the topmost card in the middle deck then that player would get all cards present in the middle deck into his/her deck.</li>
+            <li>The player who finishes his cards first loses</li>
+
+        </ul>
+        <h2>All the Best!!!!</h2>
+    </div>
+    <div class="game">
+        <div id="player-1" class="ply">
+            <div class="number">Cards in Deck : <span id ="deck1Cards"></span></div>
+            <img class="deck" src="images/deck.png" alt="Deck of cards">
+            <button class="play" id="p1">Play</button>
+            <button class="Shuffle" id="shuffle-1">Shuffle</button>
+        </div>
+        <div id="middle">
+            
+            <div class="number">Cards in Deck : <span id="currCards"></span></div>
+            <div class="cardHolder">
+            <div id="imageHolder" class="div1"></div>
+            <div id="imageHolder2" class="div2"></div>
+        </div>
+            <div id="turn">Turn for Player <span id="turnNo">1</span></div>
+            <!-- <button id="reset">Reset Game</button> -->
+        </div>
+        <div id="player-2" class="ply">
+            <div class="number">Cards in Deck : <span id ="deck2Cards"></span></div>
+            <img class="deck" src="images/deck.png" alt="Deck of cards">
+            <button class="play" id="p2">Play</button>
+            <button class="Shuffle" id="shuffle-2">Shuffle</button>
+        </div>
+    <div class = "winner">
+        <!-- PLayer 1 wins -->
+       
+        
+        
+    </div>
+    <script src="js/app.js"></script>
+</body>
+</html>
