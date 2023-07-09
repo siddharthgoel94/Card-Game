@@ -166,6 +166,7 @@ p1.addEventListener("click", function play1() {
         currCards.innerHTML=0;
 
     imageHolder2.innerHTML = "";
+    currPlay.push(cardPlayed);
       player1=player1.concat(currPlay);
      
       shuffle(player1);
@@ -216,6 +217,7 @@ p2.addEventListener("click", function play2() {
         currCards.innerHTML=0;
 
     imageHolder2.innerHTML = "";
+    currPlay.push(cardPlayed);
        
         player2=player2.concat(currPlay);
 
